@@ -1,0 +1,18 @@
+h1 {
+  margin: auto;
+  color: orange;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+span:nth-child(1) {
+  color: teal;
+}
+span:nth-child(2) {
+  color: rgb(116, 116, 240);
+}
+span:nth-child(3) {
+  color: red;
+}
