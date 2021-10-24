@@ -1,0 +1,50 @@
+/*   font-family: "Alegreya", serif;
+  font-family: "Berkshire Swash", cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,400&family=Berkshire+Swash&family=Indie+Flower&display=swap");
+.blog .container .row h1 {
+  text-align: center;
+  color: rgb(238, 235, 235);
+  font-family: "Alegreya", serif;
+  font-family: "Berkshire Swash", cursive;
+  margin-top: 60px;
+  font-size: 50px;
+}
+.blog{color: white;}
+.blog button
+.firstArticle {
+  overflow: hidden;
+
+}
+.firstArticle img {
+  filter: contrast(1);
+  filter: brightness(0.8);
+  height: 500px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 90px;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+}
+
+.firstArticle img:hover {
+  transform: scale(1.1);
+  /* transition: all .7s ease-in-out; */
+  filter: brightness(0.3);
+}
+
+.blog .text {
+  box-shadow: 1px 1px 18px gray;
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 20px;
+
+}
+
+.text p{color: gray;
+text-align: center;
+word-spacing: 4px;}
+.text p  svg {color: rgb(212, 143, 14);
+margin: 6px;
+}
